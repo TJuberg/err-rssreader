@@ -3,7 +3,7 @@ Name = RSSReader
 Module = rssreader
 
 [Documentation]
-Description = Get newest context from your favorite RSS feeds from your Errbot.
+Description = Get newest content from your favorite RSS feeds via your Errbot.
 
 [Python]
 Version = 2+
