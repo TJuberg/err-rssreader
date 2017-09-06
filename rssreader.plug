@@ -1,6 +1,6 @@
 [Core]
 Name = RSSReader
-Module = rssreader
+Module = rss
 
 [Documentation]
 Description = Get newest content from your favorite RSS feeds via your Errbot.
