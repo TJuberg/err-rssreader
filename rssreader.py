@@ -62,7 +62,7 @@ class RSSReader(BotPlugin):
             self.config['SUBSCRIPTIONS'][hash] = []
 
         self.save_config()
-        return 'Added {}'.format(self.list_format(args))
+        return 'Added [{}] {}'.format(hash, self.list_format(args))
 
     @botcmd(admin_only=True, split_args_with=None)
     def rssreader_rm(self, msg, args):
